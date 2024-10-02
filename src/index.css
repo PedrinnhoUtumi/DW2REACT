@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.botao {
+    @apply bg-custom-gray2 px-4 py-2 text-custom-white rounded-3xl;
+}

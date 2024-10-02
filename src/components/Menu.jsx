@@ -3,6 +3,9 @@ import {
   IconBrandReact,
   IconHome,
   IconInfoCircle,
+  IconMessage2Down,
+  IconMessageDown,
+  IconMessageUp,
   IconRouteAltLeft,
   IconSquareRoundedNumber1,
   IconSquareRoundedNumber2,
@@ -84,6 +87,16 @@ export function Menu() {
         <NavLink to="Contador" className={getEstilo}>
           <IconSquareRoundedNumber4 />
           Contador
+        </NavLink>
+        
+        <NavLink to="ComunicacaoDireta" className={getEstilo}>
+          <IconMessageDown />
+          ComunicacaoDireta
+        </NavLink>
+        
+        <NavLink to="ComunicacaoIndireta" className={getEstilo}>
+          <IconMessageUp />
+          ComunicacaoIndireta
         </NavLink>
       </nav>
 
