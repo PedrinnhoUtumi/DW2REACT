@@ -1,5 +1,7 @@
 import {
+  IconActivity,
   IconAddressBook,
+  IconBrand4chan,
   IconBrandReact,
   IconHome,
   IconInfoCircle,
@@ -88,6 +90,8 @@ export function Menu() {
           <IconSquareRoundedNumber4 />
           Contador
         </NavLink>
+
+        <span className="pt-4 pl-3 text-xs text-zinc-500">Comunicação</span>
         
         <NavLink to="ComunicacaoDireta" className={getEstilo}>
           <IconMessageDown />
@@ -98,11 +102,19 @@ export function Menu() {
           <IconMessageUp />
           ComunicacaoIndireta
         </NavLink>
-      </nav>
 
-      <footer className="absolute bottom-0 p-2 flex justify-center text-custom-white">
-        <span>Desenvolvimento Web 2</span>
-      </footer>
+        <span className="pt-4 pl-3 text-xs text-zinc-500">Hooks Básicos</span>
+        
+        <NavLink to="UseRef" className={getEstilo}>
+          <IconBrandReact />
+          Use Ref
+        </NavLink>
+        
+        <NavLink to="UseEffect" className={getEstilo}>
+          <IconBrandReact />
+          Use Effect
+        </NavLink>
+      </nav>
     </aside>
   );
 }
