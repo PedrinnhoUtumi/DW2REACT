@@ -4,6 +4,7 @@ import { Pagina } from "../../components/Pagina";
 export function UseEffect() {
     const [url, setUrl] = useState("")
     
+
     function trocarImagem() {
         fetch("https://dog.ceo/api/breeds/image/random")
         .then(resposta => resposta.json())  

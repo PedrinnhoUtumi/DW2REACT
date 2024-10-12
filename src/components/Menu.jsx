@@ -1,18 +1,15 @@
 import {
-  IconActivity,
   IconAddressBook,
-  IconBrand4chan,
   IconBrandReact,
   IconHome,
   IconInfoCircle,
-  IconMessage2Down,
   IconMessageDown,
   IconMessageUp,
-  IconRouteAltLeft,
   IconSquareRoundedNumber1,
   IconSquareRoundedNumber2,
   IconSquareRoundedNumber3,
   IconSquareRoundedNumber4,
+  IconSquareRoundedNumber5,
 } from "@tabler/icons-react";
 import { NavLink } from "react-router-dom";
 
@@ -89,6 +86,11 @@ export function Menu() {
         <NavLink to="Contador" className={getEstilo}>
           <IconSquareRoundedNumber4 />
           Contador
+        </NavLink>
+
+        <NavLink to="Tradutor" className={getEstilo}>
+          <IconSquareRoundedNumber5 />
+          Tradutor
         </NavLink>
 
         <span className="pt-4 pl-3 text-xs text-zinc-500">Comunicação</span>
