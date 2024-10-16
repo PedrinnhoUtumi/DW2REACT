@@ -17,7 +17,7 @@ import { SemEstado } from "./pages/estado/SemEstado";
 import { ComEstado } from "./pages/estado/ComEstado";
 import { CampoTexto } from "./pages/estado/CampoTexto";
 import { Contador } from "./pages/estado/Contador";
-import { Tradutor } from "./pages/estado/Tradutor";
+import { Tradutor } from "./pages/tradutor/Tradutor";
 import { ComunicacaoDireta } from "./pages/comunicacao/ComunicacaoDireta";
 import { ComunicacaoIndireta } from "./pages/comunicacao/ComunicacaoIndireta";
 import { UseRef } from "./pages/hooksBasicos/UseRef";
