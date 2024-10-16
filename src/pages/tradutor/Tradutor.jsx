@@ -39,6 +39,9 @@ export function Tradutor() {
                 <div className="flex flex-row absolute bottom-36" >
                 <span className="bg-purple-300 ml-10 mb-32 text-custom-black text-xl">{texto.length}/250</span>
                 <button className="bg-purple-600 ml-32 p-2 mb-32 rounded-xl w-36" onClick={textEnglish}>TRADUZIR</button>
+                {/* <select className="w-64 h-5 ml-10 rounded-md" value="pt-br">
+                    <option value="pt-br">Português</option>
+                </select> */}
                 </div>
             </div>
         </Pagina>
